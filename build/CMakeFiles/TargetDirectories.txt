@@ -1,0 +1,9 @@
+G:/48  QtFile/McuDownLoaderForCortex-M/build/CMakeFiles/McuDownLoaderForCortex-M.dir
+G:/48  QtFile/McuDownLoaderForCortex-M/build/CMakeFiles/edit_cache.dir
+G:/48  QtFile/McuDownLoaderForCortex-M/build/CMakeFiles/rebuild_cache.dir
+G:/48  QtFile/McuDownLoaderForCortex-M/build/CMakeFiles/list_install_components.dir
+G:/48  QtFile/McuDownLoaderForCortex-M/build/CMakeFiles/install.dir
+G:/48  QtFile/McuDownLoaderForCortex-M/build/CMakeFiles/install/local.dir
+G:/48  QtFile/McuDownLoaderForCortex-M/build/CMakeFiles/install/strip.dir
+G:/48  QtFile/McuDownLoaderForCortex-M/build/CMakeFiles/McuDownLoaderForCortex-M_autogen_timestamp_deps.dir
+G:/48  QtFile/McuDownLoaderForCortex-M/build/CMakeFiles/McuDownLoaderForCortex-M_autogen.dir
