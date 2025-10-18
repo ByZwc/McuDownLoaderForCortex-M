@@ -47,13 +47,15 @@ class Generial_isp : public QObject
 public:
     explicit Generial_isp(QObject *parent = nullptr);
 
+
+
 signals:
 
-private slots:
+private:
     //应答
-    bool on_Ack_Reply(Isp_Reply_Type Isp,Isp_Command_Type cmd);
-    bool on_Nack_Reply(Isp_Reply_Type Isp,Isp_Command_Type cmd);
-    bool on_Nack_Reply_Repeat(Isp_Reply_Type Isp,Isp_Command_Type cmd);
+    void on_Ack(Isp_Reply_Type Isp,Isp_Command_Type cmd);
+    void on_Nack(Isp_Reply_Type Isp,Isp_Command_Type cmd);
+    void on_Repeat_Nack(Isp_Reply_Type Isp,Isp_Command_Type cmd);
 
     //从机波特率自动设置及连接
     void on_BaudRate_AutoSet_Send();
@@ -88,6 +90,7 @@ private slots:
 
     //跳转地址执行
     void on_Jump_Address_Execute_Send(Read_Memory_Type Step);
+
 
 };
 
