@@ -9,7 +9,9 @@ class DownLoader : public QObject
 public:
     explicit DownLoader(QObject *parent = nullptr);
 
-signals:
+    void DownLoader_Recv_Data(uint8_t *data, uint32_t length);
+
+    void DownLoader_Event_Loop();
 };
 
 #endif // DOWNLOADER_H
